@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_KEY = 'AIzaSyAjmUkUJC4fDEuL95e8GJLolbxRy4toz6I' // Replace with your actual Gemini API key
+const API_KEY = 'sample' // Replace with your actual Gemini API key
 
 export const getRecipes = async (ingredients: string[]): Promise<string[]> => {
   const prompt = `Given the following ingredients: ${ingredients.join(
